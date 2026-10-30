@@ -1,0 +1,18 @@
+[server]
+headless = true
+enableXsrfProtection = true
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false     # no telemetry
+
+[client]
+showSidebarNavigation = false   # the app draws its own icon navigation (services/ui.py)
+toolbarMode = "minimal"
+
+[theme]
+primaryColor = "#01439E"
+backgroundColor = "#F2F5FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0F1F3D"
+font = "sans serif"
